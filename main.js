@@ -84,13 +84,20 @@ es una funcion llamandose asi misma
 // 1. Respuesta pregunta 1
 
 // Colocar el código acá
-num_aleatorios = [7, 8, 5, 10, 11, 9, 2, 4]
-
+lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 lista_pares = []
 lista_impares = []
 
-for (numero = num_aleatorios)
+for (numero = lista_numeros);
+    if numero % 2 == 0:
+        lista_pares.append(numero)
+    else if{
+        lista_impares.append(numero)
+    }
+
+pront("Números pares:", lista_pares)
+pront("Números impares:", lista_impares)
 
 
 // 2. Respuesta pregunta 2
