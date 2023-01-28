@@ -8,7 +8,8 @@ function numeroInverso(num) {
     return numInv;
   }
   
-  console.log(numeroInverso(12345)); // 54321
+  console.log(numeroInverso(12345)); 
+  
 //2.function convertirMayuscula(str) {
   var arrayDePalabras = str.split(" ");
   for (var i = 0; i < arrayDePalabras.length; i++) {
