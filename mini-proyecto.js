@@ -40,25 +40,19 @@ class libro {
 
 //3. Debe tener una clase Comic que herede de Libro y tenga las siguientes propiedades extras: dibujante, editorial, volumen.
 class comic extends libro {
-  constructor(
-    título,
-    autor,
-    precio,
-    cantidad,
-    año,
-    dibujante,
-    editorial,
-    volumen
-  ) {
+  constructor(título,autor,precio,cantidad,año,dibujante,editorial,volumen){
     super(título, autor, precio, cantidad, año);
     this.dibujante = dibujante;
     this.editorial = editorial;
     this.volumen = volumen;
   }
+  
 }
 
-//4. ** Los usuarios no pueden modificar datos de los libros o comics, pero sí pueden modificar la cantidad de libros disponibles, o el año, de igual forma deben ser propiedades privadas
+//4. ** Los usuarios no pueden modificar datos de los libros o comics, pero sí pueden modificar la cantidad de libros disponibles,
+// o el año, de igual forma deben ser propiedades privadas
 // ** tener en cuenta que para poder acceder y modificar las propiedades privadas debe usar getters y setters
+
 
 
 //5. Debe haber un método que permita obtener la información completa de un libro o comic, este debe llamarse "getInfo".
