@@ -1,3 +1,7 @@
+body{
+  background-color: #000000;
+}
+
 .sidebar {
   background: #EB5757;  
   background: -webkit-linear-gradient(to right, #000000, #EB5757);  
@@ -10,10 +14,39 @@
     /* align-items: center;
       justify-content: center; */
 }
+.container {
+  display: flex;
+    gap: 130px;
+}
 li{
-  list-style:none;
+  list-style: none;
+  margin-bottom: 15px;
+  background-color: black;
+  width: 102px;
+  border-radius: 10px;
+  padding: 4px;
+}
+.logo{
+  width: 50px;
+  margin-right: 5px;
 }
 a {
     text-decoration: none;
     color: #f5f5f5;
+    padding: 5px;
+}
+.book-grid, .comic-grid, .con {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.book-item, .comic-item {
+
+  padding: 20px;
+  border-radius: 25px;
+  height: 100px;
+}
+.content{
+  background-color: #EB5757;
+  height: 251px
 }
